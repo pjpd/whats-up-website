@@ -7,7 +7,7 @@ function bigappend(a) {
 
     for (i = 0; i < a.length; i += 1) {
         html = [
-            '<h2>', a[i].name, '<img class="icon" src="assets/images/', a[i].is_up, '.ico"></h2>',
+            '<img class="icon" src="./assets/images/', a[i].is_up, '.ico"><h2>', a[i].name, '</h2>',
             '<p><a target="_blank" href="', a[i].url,'"><em>', a[i].url, '</a></em></p>',
             '<p>Text searched: ', a[i].text, '</p>',
         ].join('');

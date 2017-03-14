@@ -68,13 +68,15 @@ body {
 .box {
   margin: 15px;
   padding: 25px;
-  width: calc(100% - 80px);
+  width: calc(100% - 84px);
   background: LightGray;
   border-radius: 10px;
+  border: 2px solid LightGray;
 }
 
 .box-title {
   background: White;
+  border-color: White;
 }
 
 /*
@@ -139,7 +141,7 @@ a:hover {
 */
 
 .btn {
-  border: 2px solid DarkGrey;
+  border-color: DarkGrey;
   letter-spacing: .5px;
   background: white;
   text-align: center;
